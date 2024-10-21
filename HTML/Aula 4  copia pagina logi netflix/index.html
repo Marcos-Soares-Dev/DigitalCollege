@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <script src="./scripts/index.js"></script>
+    <title>Netflix-login</title>
+</head>
+<body>    
+    <main>
+        <img src="./img/Netflix_Logo_PMS (2).png" class="logoBrand" alt="logo-netflix">
+        <section id="formSection">
+            <div class="loginForm">            
+                <form id="formContent">
+                    <h3>Entrar</h3>
+                    <p><input type="text" name="user" id="user" placeholder="E´-mail ou número de celular"></p>
+                    <p><input type="password" name="password" id="password" placeholder="Senha"></p>
+                    <button type="submit">Entrar</button>
+                    <p>OU</p>
+                    <button type="button" class="acessCodeBtn">Usar um codigo de acesso</button>
+                    <a href="#">Esqueci minha senha?</a>
+                    <div class="rememberMe">
+                        <input type="checkbox" name="rememberMe" id="rememberMe">
+                        <label for="rememberMe">Lembre-se de mim</label>
+                        <p>Novo por aqui? <a href="#">Assine agora</a></p>
+                        <p class="recapMessage">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a></p>
+                        <span id="recapInformation"></span>
+                    </div>
+                </form>
+            </div>
+        </section>    
+    </main>
+</body>
+</html>
