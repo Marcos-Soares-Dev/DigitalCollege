@@ -56,3 +56,21 @@
 // alert(`Os numeros em ordem crescente sao: ${number1}, ${number2} e ${number3}`)
 
 
+
+
+// let number1 = Number(prompt("Informe o primeiro numero 1"))
+// let number2 = Number(prompt("Informe o segundo numero 2"))
+// let operador = prompt("Informe o operador para a operação")
+
+// if (operador == "+") {
+//     alert(`${number1} + ${number2} = ${number1 + number2}`)
+// } else if (operador == "-") {
+//     alert(`${number1} - ${number2} = ${number1 - number2}`)
+// } else if (operador == "*") {
+//     alert(`${number1} x ${number2} = ${number1 * number2}`)
+// } else if (operador == "/") {
+//     alert(`${number1} / ${number2} = ${number1 / number2}`)
+// }
+
+
+
